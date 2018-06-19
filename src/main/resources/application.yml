@@ -8,7 +8,6 @@ logging:
 spring:
   application:
     name: provider
-  #数据源配置
   datasource:
     url: jdbc:mysql://localhost:3306/test
     username: root
@@ -16,7 +15,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     #type: com.alibaba.druid.pool.DruidDataSource
     connectionProperties: druid.stat.mergeSql=true
-  #rabbitmq消息队列配置信息
+  #rabbitmq
   rabbitmq:
     host: localhost
     port: 5672
